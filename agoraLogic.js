@@ -7,14 +7,11 @@ async function startBasicCall() {
     };
     
     let options = {
-        // Pass your app ID here.
-        appId: "73c98058c4fc45f08d5fa3c27c3c77f6",
-        // Set the channel name.
-        channel: "test channel",
-        // Use a temp token
-        token: "007eJxTYHhzo6LGJli0gyW1LXljbJ3kSU+3WcvZDi/s2aTO3itjs1OBITnZPMXc0tg4zSDRyMTI0CDRwijFONXU0Nwi1Sgx1djwXgdLekMgI8MFdl0GRigE8XkYSlKLSxSSMxLz8lJzGBgArBAf7w==",
-        // Set the user ID.
-        uid: 123456,
+        appId: '73c98058c4fc45f08d5fa3c27c3c77f6',
+        channel: 'test channel',
+        token:
+          '007eJxTYFB8NzF56YGzLe8/vOS4OWH7/q1Grvv4Dq2Y6srLz6sm5XxBgcHcONnSwsDUItkkLdnENM3AIsU0LdE42cg82TjZ3DzNLGcTS3pDICMDZ5k7CyMDBIL4PAwlqcUlCskZiXl5qTkMDACLLSH1',
+        uid: Math.floor(Math.random() * 10001),
     };
     
     console.log({ options });
